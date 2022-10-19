@@ -1,0 +1,33 @@
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    background: #D32F2F;
+    color: white;
+}
+#first {
+    color: #00ced1;
+    background-color: #D32F2F;
+    opacity: 0,5;
+}
+p2 {
+    color: rgba(0, 206, 209, 0,5) ;
+    background-color: blue;
+    
+}
+p3 {
+    color: #00ced1;
+    background-color: yellow;
+}
+
+.div {
+    background-color: blue;
+    opacity: 0,5;
+}
+
+.div2 {
+    background-color: rgba(0, 200, 209, 0,5);
+}
+
+#klasa {
+    background-color: hotpink;
+}

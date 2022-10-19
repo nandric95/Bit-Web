@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Then VS Now</title>
+</head>
+<body>
+    <form action="./handle-upload.html" method="get">
+        <p>Submit "THEN" picture</p>
+        <input type="file" name="picture"/>
+        <br/>
+        <p>Put a picture descrription</p>
+        <textarea name="comment" cols="40" rows="15" placeholder="Enter your comment..."></textarea>
+        <br/>
+        <p>Submit "THEN" picture</p>
+        <input type="file" name="picture"/>
+        
+        <p>Put a picture descrription</p>
+        <textarea name="comment" cols="40" rows="15" placeholder="Enter your comment..."></textarea>
+        <br/>
+        <input type="submit" value="Send">
+        <br/>
+        <br/>
+        <label for="name">Name:</lable>
+        <input type="text" name="name" required/>
+        <br/>
+        <br/>
+        <textarea name="comment" cols="40" rows="15">Put comment...</textarea>
+        <br/>
+        <br/>
+        <p>What is your favourite animal?</p>
+        <input type="radio" name="animal" value="dog"/> Dog
+        <input type="radio" name="animal" value="cat"/> Cat
+        <br/>
+        <input type="reset" value="Reset"/>
+        <input type="image" src="https://goo.gl/za5ksx" width="100" height="50"/>
+        <br/>
+        <br/>
+        <fieldset>
+        <legend>Personal data</legend>
+        <label for="userName"> Name </label>
+        <br/>
+        <input type="text" id="userName" name="data"/>
+        <br/>
+        <label for="email"> Email </label>
+        <br/>
+        <input type="email" id="email" name="data"/>
+        <br/>
+        <label for="phonenumber"> Name </label>
+        <br/>
+        <input type="text" id="phonenumber" name="data"/>
+    </fieldset>
+    <br/>
+    <fieldset>
+        <legend>Location</legend>
+        <lable for="city">City</lable>
+        <input type="text" id="city" name="location"/>
+        <lable for="street">Street</lable>
+        <input type="text" id="Street" name="location"/>
+        <lable for="streetnumber">Street number</lable>
+        <input type="text" id="streetnumber" name="location"/>
+    </fieldset>
+    <br/>
+    <fieldset>
+        <legend>Event info</legend>
+        <lable>Type of event:</lable>
+        <select>
+            <option name="event" value="birthday">Birthday</option>
+            <option name="event" value="wedding" selected>Wedding</option>
+            <option name="event" value="company">Company</option>
+        </select>
+        <lable for="number">Number of guests</lable>
+        <input type="number" id="number" name="event" placeholder="20"/>
+           </fieldset>
+        <br/>
+        <p>Name</p>
+        <input type="text" name="name" required/>
+        <p>Date</p>
+        <input type="date" name="date"/>
+        <p>URL</p>
+        <input type="url" name="url"/>
+        <p>Email</p>
+        <input type="email" name="email"/>
+    </form>
+</body>
+</html>

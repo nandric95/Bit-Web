@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.example.com/subscribe.php" method="post">
+        <p>This is where the form controls will appear.</p>
+        <p>Username:
+            <input type="text" name="usernam" size="15" maxlength="30">
+        </p>
+        <p>
+            Password:
+            <input type="password" name="password" size="15" maxlength="30">
+        </p>
+        <p>What you think about this gig? 
+            <br>
+            <br>
+            <textarea name="comments" cols="30" rows="15" placeholder="Enter your comments..."></textarea>
+        </p>  
+        
+        <p> Please select your favourite type of music:
+            <br>
+            <br>
+            <input type="radio" name="music" value="pop" checked />Pop
+            <input type="radio" name="music" value="Rock" />Rock
+            <input type="radio" name="music" value="Folk" />Folk
+        </p>
+    </br>
+    </br>
+    <p> Please select your favourite music service(s):
+        <br>
+        <br>
+        <input type="checkbox" name="service" value="itunes" checked/> iTunes
+        <input type="checkbox" name="service" value="last.fm"/> Last.fm
+        <input type="checkbox" name="service" value="spotify"/> Spotify
+    </p>
+    <br>
+    <br>
+    
+    <p>What device do you listen to music on?
+        <select name="devices" multiple="multiple">
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer">Computer</option>
+        </select>
+    </p>
+    <br>
+    <br>
+    <p>Upload your song in MP3 format:
+        
+        <br>
+
+        <input type="file" name="user-song"/>
+
+        <br>
+
+        <input type="submit" value="Upload"/>
+    </p>
+    <br>
+    <br>
+    <p>Subscribe to our mail list:
+        <br>
+        <br>
+        <input type="text" name="mail"/>
+        <input type="submit" name="subscribe" value="Subscribe"/>
+    </p>
+    <br>
+    <br>
+    <p>Email:
+        <input type="text" name="email" required/>
+
+        <br>
+        <br>
+        <p>Password
+           <input type="password" name="password" maxlength="30" required/> 
+        </p>
+     
+        <br>
+        <br>
+
+        <input type="submit" value="Submit"/>
+        <input type="reset" value="Reset"/>
+
+    </p>
+
+    <br>
+    <br>
+
+    <button>
+        <img src="https://goo.gl/4qaPWi" alt="Add" width="10" height="10"/>
+        Add
+    </button>
+
+    <br>
+    <br>
+
+    Hy Pera, enter your password:
+
+    <input type="password" name="password"/>
+    <input type="hidden" name="username" value="pera.peric"/>
+
+    <br>
+    <br>
+
+    <label> Age: <input type="text" name="age"/> </label>
+
+    <br/>
+    <br/>
+    Gender:
+    <input id="female" type="radio" name="gender" value="f"/>
+    <label for="female">Female</label>
+    <input id="male" type="radio" name="gender" value="m"/>
+    <label for="male"> Male </label>
+
+    <br>
+    <br>
+
+    <fieldset>
+        <legend>Contact details</legend>
+            <label>
+                Email:
+                <br>
+                <input type="email" name="email"/>
+            </label>
+            <br>
+            <label>
+                Mobile:
+                <br>
+                <input type="text" name="mobile"/>
+            </label>
+            <br>
+            <lable>
+                Telephone:
+                <br>
+                <input type="text" name="telephone"/>
+            </lable>
+    </fieldset>
+
+    <br>
+    <br>
+
+    <label for="username">Username</label>
+    <input type="text" name="username" required/>
+
+    <br>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" required/>
+
+    <input type="submit" value="Submit"/>
+
+    <br/>
+    <br/>
+
+    <label for="date">Departure date</label>
+    <input type="date" name="date"/>
+
+    <br/>
+
+    <input type="submit" value="Submit"/>
+    
+    <br/>
+    <br/>
+
+    <p>Please enter your email address:</p>
+    <br/>
+    <input type="email" name="email" required/>
+    <input type="submit" value="Submit"/>
+
+    <br/>
+    <br/>
+
+    <p>Please enter your webside address:</p>
+    <br/>
+    <input type="url" name="website"/>
+    <input type="submit" value="Submit"/>
+
+    <br/>
+    <br/>
+
+    <p>Search:</p>
+    <input type="search" name="search" placeholder="Enter keyword"/>
+    <br/>
+    <input type="submit" value="Search"/>
+
+    </form>
+</body>
+</html>

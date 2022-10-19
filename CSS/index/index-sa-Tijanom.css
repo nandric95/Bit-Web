@@ -1,0 +1,14 @@
+#neki {
+    background-color: blue;
+}
+.main2 {
+    border: 2px solid black;
+}
+.jedan {
+    background-color: brown;
+    border: 2px darkmagenta solid;
+    margin: 50px;
+    padding: 50px;
+    width: 300px;
+    height: 200px;
+}
