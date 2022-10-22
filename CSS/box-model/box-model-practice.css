@@ -1,0 +1,68 @@
+
+div.box {
+    box-sizing: content-box;
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    max-width: 900px;
+    min-width: 600px;
+    color: white;
+    overflow: auto;
+    border-width: 1px 4px 12px 4px;
+    border-style: solid; 
+    border-color: black;
+    padding: 2px 2px;
+    margin: 20px 200px;
+    
+}
+
+div.box1 {
+    height: 300px;
+    width: 500px;
+    padding: 30px;
+    background-color: blue;
+    color: white;
+    
+}
+
+p {
+    width: 500px;
+    min-width: 50px;
+    max-height: 100px;
+    box-shadow: 0 0 10px gray;
+    
+}
+
+.first {
+    background: red;
+    
+}
+
+.second {
+    background-color: black;
+    overflow: auto;
+    
+}
+
+p.one {
+    background-color: blue;
+    border-width:  2px;
+    
+}
+
+p.two {
+    border-width: 2px;
+    border-style: dotted; 
+    border-color: black;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+}
+
+li.coming-soon {
+    display: none;
+}

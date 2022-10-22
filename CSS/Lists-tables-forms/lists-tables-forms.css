@@ -1,0 +1,24 @@
+.circle {
+    list-style-type: circle;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.upperalphabetic {
+    list-style-type: upper-alpha;
+}
+
+.romannumbers {
+    list-style-type: lower-roman;
+}
+
+.picture {
+    list-style: square inside url(https://i.pinimg.com/originals/b8/46/44/b84644e278e8a7b233d107a903e68bf7.gif);
+    list-style-position: inside;
+}
+
+.insidebox {
+
+}
