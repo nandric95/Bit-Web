@@ -1,0 +1,27 @@
+
+
+#first-child {
+    position: relative;
+    top: 50 px;
+    left: 100 px;
+    margin-bottom: 50px;
+   
+}
+
+.second-child {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.third-child {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+a {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

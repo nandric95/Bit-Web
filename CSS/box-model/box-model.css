@@ -1,13 +1,104 @@
 .first {
     background-color: yellow;
+    max-width: 300px;
     width: 400px;
     height: 500px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .second {
     background-color: red;
     width: 600px;
     height: 300px;
-    overflow: scroll;
+    max-height: 200px;
+    overflow: visible;
 }
+
+p.third {
+    background-color: yellow;
+    border: dashed red 5px;
+    padding: 50px;
+}
+
+p.forth {
+    background-color: yellow;
+    border: solid green 5px;
+    border-width: 5px;
+    padding-top: 50px;
+}
+
+p.fifth {
+    background-color: yellow;
+    border: dashed red 5px;
+    padding: 50px;
+    width: 300px;
+    margin: 50px;
+}
+
+p.sixth {
+    background-color: yellow;
+    border: solid green 5px;
+    border-width: 5px;
+    padding-top: 50px;
+    width: 400px;
+    text-align: center;
+}
+
+.seventh {
+    background-color: yellow;
+    border: dashed red 5px;
+    padding: 50px;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.inline {
+    background-color: yellow;
+    border: solid green 5px;
+    padding: 0px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.inline2 {
+    background-color: yellow;
+    border: dashed red 5px;
+    padding: 0px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.hide {
+    background-color: yellow;
+    border: solid green 5px;
+    padding: 20px;
+    margin-right: 20px;
+    display: block;
+}
+
+.hide2 {
+    background-color: yellow;
+    border: dashed red 5px;
+    padding: 20px;
+    margin-right: 20px;
+    display: block;
+    visibility: hidden;
+}
+
+.div {
+    text-align: center;
+    width: 960px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: red;
+    font-style: oblique;
+    box-shadow: 0px 0px 10px #777777;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+

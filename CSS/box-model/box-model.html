@@ -8,20 +8,116 @@
     <title>Box model</title>
 </head>
 <body>
-    <!--●	Create a page containing two paragraphs.
+    <!--Size	
+        Create a page containing two paragraphs.
 ●	The first paragraph should have a yellow background
 ●	The second paragraph should have a red background
 ●	Add a lot of text to both of them
---> 
-    <div>
-    <p class="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae a, itaque neque in sequi repellat debitis est pariatur et, quasi officia facere molestias doloribus tempore quis id incidunt eligendi! Voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero dicta odit, eligendi quis fugit quos soluta ducimus sit perspiciatis dignissimos, pariatur beatae commodi! Perspiciatis doloremque alias ea aliquam a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloribus quidem consequuntur, veritatis soluta, cumque id aliquam maiores similique mollitia cupiditate harum optio. Ducimus est similique odio inventore, iure sit.</p>
-    <p class="second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae a, itaque neque in sequi repellat debitis est pariatur et, quasi officia facere molestias doloribus tempore quis id incidunt eligendi! Voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero dicta odit, eligendi quis fugit quos soluta ducimus sit perspiciatis dignissimos, pariatur beatae commodi! Perspiciatis doloremque alias ea aliquam a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloribus quidem consequuntur, veritatis soluta, cumque id aliquam maiores similique mollitia cupiditate harum optio. Ducimus est similique odio inventore, iure sit.</p>
-    </div>
-    <!--●	Fixed size
+
+Fixed size
 ○	The first paragraph has width of 400px and height of 500px
 ○	The second should have 600px width and 300px height
 ○	Paragraph text should not overflow the box
+●	
+Dynamic size
+○	Max width of the first paragraph should be 300px
+○	Max height of the second one should be 200px
+○	The first paragraph text should be cut if it's bigger than the box
+○	The second paragraph text can overflow the paragraph (text can be bigger than the paragraph box)
+
+--> 
+    <div>
+    <p class="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae a, itaque neque in sequi repellat debitis est pariatur et, quasi officia facere molestias doloribus tempore quis id incidunt eligendi! Voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero dicta odit, eligendi quis fugit quos soluta ducimus sit perspiciatis dignissimos, pariatur beatae commodi! Perspiciatis doloremque alias ea aliquam a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloribus quidem consequuntur, veritatis soluta, cumque id aliquam maiores similique mollitia cupiditate harum optio. Ducimus est similique odio inventore, iure sit.</p>
+    <p class="second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae a, itaque neque in sequi repellat debitis est pariatur et, quasi officia facere molestias doloribus tempore quis id incidunt eligendi! Voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero dicta odit, eligendi quis fugit quos soluta ducimus sit perspiciatis dignissimos, pariatur beatae commodi! Perspiciatis doloremque alias ea aliquam a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloribus quidem consequuntur, veritatis soluta, cumque id aliquam maiores similique mollitia cupiditate harum optio. Ducimus est similique odio inventore, iure sit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, numquam vero quam repellendus recusandae a nisi laudantium ratione autem natus labore est modi rerum ut, porro pariatur eaque cum non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deserunt nisi dolore iusto facilis ducimus corporis cupiditate asperiores blanditiis, minus doloremque, sapiente excepturi ad dolor atque incidunt sunt! Ducimus, est.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!--Borders
+●	Create three paragraphs on the page
+●	All of them should have a yellow background
+●	Each paragraph should have a 5px thick border
+●	The first and the last paragraphs should have red dashed borders
+●	The middle one should have green solid borders
+Padding
+●	Use the previous example or create three new paragraphs with bg color
+●	Set padding for each paragraph
+●	The first and the third should have a 50px padding around all sides
+●	The middle one should have a 50px top padding only
+Margins
+●	Use the previous example and add margins to each element
+●	The first should be 300px wide and should have 50px margins around all sides
+●	The second should be 400px wide and it should be horizontally centered on the screen
+●	The third one should be 200px wide and should have a 100px wide left margin
+
+    -->
+
+    <div>
+        <p class="third">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+        <br>
+        <p class="forth">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+        <br>
+        <p class="third">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <p class="fifth">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+        <br>
+        <p class="sixth">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+        <br>
+        <p class="fifth">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+        <p class="seventh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo delectus doloremque accusantium suscipit ipsum optio animi tempore mollitia obcaecati maxime, ad aliquam consectetur, sunt perferendis labore? Deleniti id incidunt iusto.</p>
+    </div>
+
+<!--Inline/Block Elements
+●	Transform the structure from the previous exercise
+●	Each paragraph should have the right margin set to 20px and no padding (0)
+●	Elements should all be in one row
 -->
+<div>
+    <p class="inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+    <br>
+    <p class="inline2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+    <br>
+    <p class="inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+</div>
+<!--Hide/Show | Box Shadows | Rounded Corners
+
+●	Hide/Show 
+○	Hide the middle paragraph from the previous example
+○	The third paragraph should be hidden
+-->
+<br>
+<br>
+<div>
+    <p class="hide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+    <br>
+    <p class="hide2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+    <br>
+    <p class="hide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo rem, natus qui dolores facilis quasi pariatur necessitatibus sunt aut corrupti maxime facere veniam laudantium ab a quod. Laborum, dolorem?</p>
+</div>
+
+<!--●	Box Shadow
+○	Add a main title on the page using h1 element
+○	Set width of the title to 960px
+○	Position the heading box to the center of the page
+○	The text in the heading should be centered 
+○	Add top and bottom padding of 50px and do that for the top/bottom margins also
+○	Define box background color, and font color
+○	Include some fancy font for the title
+○	Apply box shadow to the heading box
+
+●	Rounded Corners
+○	Round the corners on the heading box (try different radiuses)
+
+-->
+<div class="div">
+    <h1>Main title</h1>
+</div>
+
 
 
 </body>
