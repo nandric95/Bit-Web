@@ -1,0 +1,29 @@
+
+.container {
+width: 100wv;
+height: 100vh;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+row-gap: 0px;
+column-gap: 0px;
+}
+
+h1 {
+    background-color: pink;
+}
+
+p {
+    border: solid black 3px;
+    background-color: bisque;
+    width: 35%;
+    height: 150px; 
+    margin: 10px;    
+}
+
+
+
+

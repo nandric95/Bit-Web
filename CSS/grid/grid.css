@@ -1,0 +1,32 @@
+.container {
+    background-color: yellow;
+    border: yellow solid 2px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    height: 50vh;
+}
+
+.item {
+    height: 100px;
+    width: 400px;
+    border: black solid 2px;
+}
+
+.item1 {
+    background-color: blue;
+}
+
+.item2 {
+    background-color: red;
+}
+
+.item3 {
+    background-color: green;
+}
+.item4 {
+    background-color: red;
+}
+
+.item5 {
+    background-color: orange;
+}
