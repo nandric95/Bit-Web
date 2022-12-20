@@ -1,0 +1,16 @@
+div {
+  background-color: black; }
+
+body {
+  background-color: blue; }
+  body p {
+    border: solid black 2px; }
+    body p.class.hover {
+      background-color: black; }
+
+p {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px; }
+
+/*# sourceMappingURL=main.css.map */

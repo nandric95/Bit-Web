@@ -1,0 +1,22 @@
+@import "header";
+$blue: blue;
+body {
+    p {
+        border: solid black 2px;
+        &.class {
+            &.hover {
+                background-color: black;
+            }
+        }
+    }
+    
+    background-color: $blue;
+}
+@mixin Petar ($a, $b, $c) {
+    display: $a;
+    justify-content: $b;
+    padding: $c;
+}
+p {
+    @include Petar (flex, space-around, 5px);
+}
